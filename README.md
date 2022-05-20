@@ -11,6 +11,8 @@ Kindly read the instructions below:
 
 >cd blackeye-fix
 
+>Note: If ngrok is banned in your country/region you'll need to use a VPN before you run the bash file.
+
 >bash fix.sh
 
 >Instead of running the bash script if your not running it for the first time,you can find ngrok in the Downloads folder,
