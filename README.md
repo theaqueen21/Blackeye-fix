@@ -10,3 +10,11 @@ git clone https://github.com/theaqueen21/blackeye-fix
 cd blackeye-fix
 
 bash fix.sh
+
+Instead of running the bash script if your not running it for the first time,you can find ngrok in the Downloads folder,
+
+cd Downloads ,
+
+ngrok http 3333
+
+will automate the process for second time usage soon.
