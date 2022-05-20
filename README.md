@@ -1,20 +1,24 @@
 # blackeye-fix
-Blackeye is available om : https://github.com/bhikandeshmukh/blackeye-v2.0
+Kindly read the instructions below:
 
-to get Blackeye simply run : $git clone https://github.com/bhikandeshmukh/blackeye-v2.0
+>Blackeye is available om : https://github.com/bhikandeshmukh/blackeye-v2.0
 
-Blackeye fix has been automated and made easy for everyone to use
+>to get Blackeye simply run : $git clone https://github.com/bhikandeshmukh/blackeye-v2.0
 
-git clone https://github.com/theaqueen21/blackeye-fix
+>Blackeye fix has been automated and made easy for everyone to use
 
-cd blackeye-fix
+>git clone https://github.com/theaqueen21/blackeye-fix
 
-bash fix.sh
+>cd blackeye-fix
 
-Instead of running the bash script if your not running it for the first time,you can find ngrok in the Downloads folder,
+>bash fix.sh
 
-cd Downloads ,
+>Instead of running the bash script if your not running it for the first time,you can find ngrok in the Downloads folder,
 
-ngrok http 3333
+>cd Downloads ,
 
-will automate the process for second time usage soon.
+>then
+
+>ngrok http 3333
+
+>will automate the process for second time usage soon.
