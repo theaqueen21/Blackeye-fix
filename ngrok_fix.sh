@@ -3,17 +3,22 @@ FINDUSER="${SUDO_USER:-${USER}}"
 echo "Author: theaqueen21"
 echo "										"
 echo "Downloading ngrok"
-echo "                        
-                                                                           "      
+echo "                  
+
+                                                                           "    
+echo "kindly follow the instructions"    
+echo "										"
+echo "note: if you cannot access ngrok.com in your region/country, youll need to turn on a vpn before you continue"
+echo "										"                                                                        
 if [ "$FINDUSER" == "root" ];then  
 cd /$FINDUSER/Downloads
 wget "https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz"
 tar -xf /$FINDUSER/Downloads/ngrok-v3-stable-linux-amd64.tgz
 sleep 1
 echo "
+
 										"
 echo "Please enter your ngrok token" "," "you can retrieve your token by making an account in ngrok.com"
-
 read token
 sleep 0.2
 echo "
@@ -21,6 +26,7 @@ echo "
 ngrok authtoken $token
 sleep 0.2
 echo "
+
 										"
 echo "read the description below for further evaluation"			
 echo "										"							
@@ -43,16 +49,18 @@ wget "https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz"
 tar -xf /home/$FINDUSER/Downloads/ngrok-v3-stable-linux-amd64.tgz
 sleep 1
 echo "
+
 										"
 echo "Please enter your ngrok token" "you can retrieve your token by making an account in ngrok.com"
-
 read token
 sleep 0.2
 echo "
+
 										"
 ngrok authtoken $token
 sleep 0.2
 echo "
+
 										"
 echo "read the description below for further evaluation"			
 echo "										"							
