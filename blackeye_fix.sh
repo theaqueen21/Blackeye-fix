@@ -20,7 +20,7 @@ echo "press Y to run blackeye"
 if [ "$input_root" = "Y" ];then
 cd /$FINDUSER/blackeye-v2.0
 sleep 0.2
-bash blackeye.sh
+sudo bash blackeye.sh
 fi
 done
 else
@@ -34,7 +34,7 @@ while true; do
 read -rsn1 input_user
 if [ "$input_user" = "Y" ];then
 cd /home/$FINDUSER/blackeye-v2.0
-bash blackeye.sh
+sudo bash blackeye.sh
 fi
 done
 fi
