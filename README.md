@@ -6,7 +6,7 @@ Kindly read the instructions below:
 
 >cd blackeye-fix
 
->bash main.sh
+>sudo bash main.sh
 
 >everything has been automated and blackeye automatically runs with the fix (ngrok) at the same time
 >, further instructions will be made when the bash file main.sh is run
