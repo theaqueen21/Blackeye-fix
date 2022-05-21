@@ -9,6 +9,7 @@ echo "ngrok setup has started in another terminal tab, after this setup simply s
 echo "
 							"							
 if [ "$FINDUSER" == "root" ];then
+cd /$FINDUSER
 git clone "https://github.com/bhikandeshmukh/blackeye-v2.0"
 echo "
 							"
@@ -23,6 +24,7 @@ bash blackeye.sh
 fi
 done
 else
+cd /home/$FINDUSER
 git clone "https://github.com/bhikandeshmukh/blackeye-v2.0"
 sleep 2
 echo "
